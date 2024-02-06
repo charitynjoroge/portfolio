@@ -9,7 +9,62 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: black;
 }
+
+.dark-mode {
+  background-color: #112B3C;
+  color: white;
+
+  .button {
+    background-color:#112B3C;
+    color: white;
+    border:none;
+  }
+
+  p {
+    color: rgb(85, 85, 85)
+  }
+}
+
+.logo {
+  background-image: linear-gradient(
+    to right,
+    #929AAB,
+    #929AAB 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.logo:before{
+  content: '';
+  background: #929AAB;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+ background-position: 0;
+}
+
+.logo:before{
+  width: 100%;
+}
+
+/* s */
 
 html {
   scroll-behavior: smooth;
@@ -24,6 +79,49 @@ p {
 a,
 .btn {
   transition: all 300ms ease;
+}
+
+a {
+  background-image: linear-gradient(
+    to right,
+    #929AAB,
+    #929AAB 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before{
+  content: '';
+  background: #929AAB;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+ background-position: 0;
+}
+
+a:hover::before{
+  width: 100%;
+}
+
+.button {
+  background-color:#f3f3f8;
+  color: black;
+  border:none;
 }
 
 /* DESKTOP NAV */
