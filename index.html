@@ -15,16 +15,16 @@
       <div class="logo">Muiga</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href=""></a></li>
-            <li>
+          <u><a href="#about">About</a></u>
+          <u><a href="#experience">Experience</a></u>
+          <u><a href="#projects">Projects</a></u>
+          <u><a href="#contact">Contact</a></u>
+          <u><a href=""></a></u>
+            <u>
               <button class="button" onclick="myFunction()">
                 <i class="fas fa-moon" style="font-size: 1.4em;"></i> 
               </button>
-            </li>
+            </u>
           
         </ul>
       </div>
@@ -42,10 +42,10 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <u><a href="#about" onclick="toggleMenu()">About</a></u>
+          <u><a href="#experience" onclick="toggleMenu()">Experience</a></u>
+          <u><a href="#projects" onclick="toggleMenu()">Projects</a></u>
+          <u><a href="#contact" onclick="toggleMenu()">Contact</a></u>
         </div>
       </div>
     </nav>
@@ -335,81 +335,551 @@
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h1 class="title">Work</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+          
+          <!-- PROJECT 1 -->
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+                  <!-- front content -->
+                  <div class="details-container color-container" style="height: 517px;">
+                    <div class="article-container">
+                      <img
+                        src="./assets/rsz_project-2.png"
+                        alt="Project 2"
+                        class="project-img"
+                      />
+                    </div>
+                  <h2 class="experience-sub-title project-title">Nakuja Project</h2>
+            <p>University-based rocketry project where we launched the N3 solid-propellant rockets.</p>
+            </br>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
+                View
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
+                </div>
+                <div class="back">
+                  <!-- back content -->
+                  <div class="details-container color-container" style="height: 517px;">
+                    <span class="label info">JKUAT, Onsite</span> <br>
+                    <span class="label info">September 2023 - Present</span>
+                    <ul>
+                      <ul>Worked as a member of the Recovery team for the Nakuja project N-3 rocket.</ul><br>
+                      <ul>Implementing and testing the avionics system of N-3 rockets.</ul><br>
+                      <ul>Involved in PCB fabrication.</ul><br>
+                      <ul>Collaborated on the implementation of the parachute ejection system.</ul><br>
+                      <ul>Worked to ensure the transmission of data from the onboard rocket to the ground station.</ul><br>
+                    </ul>
+                    </br>
+                    <span class="label info">Embedded programming</span>
+                    <span class="label info">C/C++</span>
+                    <span class="label info">Python</span>
+                    <span class="label info">Linux</span>
+                  
+
+                    <div class="btn-container" style="margin-top: 1rem ; padding-bottom: .5rem;">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/nakujaproject'"
+                      >
+                        Github
+                      </button>
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://nakujaproject.com/'"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+
+            <!-- PROJECT 2 -->
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <div class="details-container color-container" style="height: 517px;">
+                  <div class="article-container">
+                    <img
+                      src="./assets/rsz_project-4.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Furaha Ventures</h2>
+                  <p>Software application developer <br> Building the Kawi frontend using Angular.</p>
+                  </br>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                    >
+                      View
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <div class="details-container color-container" style="height: 517px;">
+                  <!-- <h2 class="experience-sub-title project-title">Dear Assembly...</h2> -->
+                  <span class="label info">Nairobi, Remote</span> <br>
+                  <span class="label info">May 2023 - Present</span>
+                  <ul>
+                    <ul>Design, testing, and implementation of Kawi app, energy application to monitor warehouse conditions.</ul><br>
+                    <ul>Integration with sensors to stream the sensor data.</ul><br>
+
+                  </ul>
+                  </br>
+                  <span class="label info">TypeScript</span>
+                  <span class="label info">Ionic</span>
+                  <span class="label info">Angular</span>
+                  <span class="label info">RxJS</span>
+                  <span class="label info">APIs</span>
+
+                  <div class="btn-container" style="margin-top: 1rem;">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://#/'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://furahavb.com/'"
+                    >
+                      View
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+                  <!-- front content -->
+                  <div class="details-container color-container" style="height: 517px;">
+                    <div class="article-container">
+                      <img
+                        src="./assets/rsz_project-3.png"
+                        alt="Project 2"
+                        class="project-img"
+                      />
+                    </div>
+                  <h2 class="experience-sub-title project-title">Nyandarua Assembly</h2>
+            <p>Industrial attachment.</p>
+            </br>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
+                View
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
+                </div>
+                <div class="back">
+                  <!-- back content -->
+                  <div class="details-container color-container" style="height: 517px;">
+                    <span class="label info">Nyandarua, Onsite</span> <br>
+                    <span class="label info">May 2023 - Present</span>
+                    <ul>
+                      <ul>
+                        <ul>I worked in ICT department doubling as a support and a developer.</ul><br>
+                        <ul>Involved in developing a web-based Library Management system for the organization using PHP.</ul><br>
+                        <ul>Collaborated on the development of the HR Management System.</ul><br>
+                        <ul>Performed networking and livestreaming using vMix software.</ul><br>
+                      </ul>
+  
+                    </ul>
+                    </br>
+                    <span class="label info">PHP</span>
+                    <span class="label info">JavaScript</span>
+                    <span class="label info">MySQL</span>
+                    <span class="label info">CSS</span>
+  
+                    <div class="btn-container" style="margin-top: 1rem ;">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/emuiga/Santiago'"
+                      >
+                        Github
+                      </button>
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+
+            <!-- PROJECT 4 -->
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+                  <!-- front content -->
+                  <div class="details-container color-container" style="height: 517px;">
+                    <div class="article-container">
+                      <img
+                        src="./assets/rsz_project-5.png"
+                        alt="Project 2"
+                        class="project-img"
+                      />
+                    </div>
+                  <h2 class="experience-sub-title project-title">Coming Soon</h2>
+            <p>...</p>
+            </br>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
+                View
               </button>
             </div>
           </div>
+                </div>
+                <div class="back">
+                  <!-- back content -->
+                  <div class="details-container color-container" style="height: 517px;">
+                    <span class="label info"></span> <br>
+                    <span class="label info"></span>
+                    <ul>
+                      <ul>
+                        <ul>Nothing to see here</ul><br>
+                        <ul></ul><br>
+                        <ul></ul><br>
+                        <ul>yet.</ul><br>
+    
+                      </ul>
+  
+                    </ul>
+                    </br>
+                    <span class="label info"></span>
+                    <span class="label info"></span>
+                    <span class="label info"></span>
+                    <span class="label info"></span>
+  
+                    <div class="btn-container" style="margin-top: 1rem ;">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'"
+                      >
+                        
+                      </button>
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'"
+                      >
+                        
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Articles</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <!-- ARTICLE 1 -->
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <!-- front content -->
+            <div class="details-container color-container" style="height: 517px;">
+              <div class="article-container">
+                <img
+                  src="./assets/rsz_project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Dear Assembly...</h2>
+              <p>A brief summary of my industrial attachment in Nyandarua County Government.</p>
+              </br>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://muiga-steve.hashnode.dev/'"
+                >
+                  See Blog
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://muiga-steve.hashnode.dev/dear-assembly'"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <div class="details-container color-container" style="height: 517px;">
+              <div class="article-container">
+                <img
+                  src="./assets/rsz_project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Dear Assembly...</h2>
+              <p>A brief summary of my industrial attachment in Nyandarua County Government.</p>
+              </br>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://muiga-steve.hashnode.dev/'"
+                >
+                  See Blog
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://muiga-steve.hashnode.dev/dear-assembly'"
+                >
+                  Read
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <div class="details-container color-container" style="height: 517px;">
+                  <div class="article-container">
+                    <img
+                      src="./assets/rsz_project-3.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Library System</h2>
+                  <p>A Library management system I worked on during my industrial attachment.</p>
+                  </br>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/emuiga/Santiago'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/emuiga/Santiago'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <div class="details-container color-container" style="height: 517px;">
+                  <div class="article-container">
+                    <!-- <img
+                      src="./assets/rsz_project-1.png"
+                      alt="Project 1"
+                      class="project-img"
+                    /> -->
+                  </div>
+                  <!-- <h2 class="experience-sub-title project-title">Dear Assembly...</h2> -->
+                  <ul>
+                    <u>I worked in ICT department doubling as a support and a developer.</u>
+                    <u>Involved in developing a web-based Library Management system for the organization using PHP.</u>
+                    <u>Collaborated on the development of the HR Management System.</u>
+                    <u>Performed networking and livestreaming using vMix software.</u>
+
+                  </ul>
+                  </br>
+                  <div class="btn-container">
+                    <!-- <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://muiga-steve.hashnode.dev/'"
+                    >
+                      See Blog
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://muiga-steve.hashnode.dev/dear-assembly'"
+                    >
+                      Read
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <div class="details-container color-container" style="height: 517px;">
+                  <div class="article-container">
+                    <img
+                      src="./assets/rsz_project-3.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Library System</h2>
+                  <p>A Library management system I worked on during my industrial attachment.</p>
+                  </br>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/emuiga/Santiago'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/emuiga/Santiago'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <div class="details-container color-container" style="height: 517px;">
+                  <div class="article-container">
+                    <!-- <img
+                      src="./assets/rsz_project-1.png"
+                      alt="Project 1"
+                      class="project-img"
+                    /> -->
+                  </div>
+                  <!-- <h2 class="experience-sub-title project-title">Dear Assembly...</h2> -->
+                  <ul>
+                    <u>I worked in ICT department doubling as a support and a developer.</u>
+                    <u>Involved in developing a web-based Library Management system for the organization using PHP.</u>
+                    <u>Collaborated on the development of the HR Management System.</u>
+                    <u>Performed networking and livestreaming using vMix software.</u>
+
+                  </ul>
+                  </br>
+                  <div class="btn-container">
+                    <!-- <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://muiga-steve.hashnode.dev/'"
+                    >
+                      See Blog
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://muiga-steve.hashnode.dev/dear-assembly'"
+                    >
+                      Read
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <div class="details-container color-container" style="height: 517px;">
+                  <div class="article-container">
+                    <img
+                      src="./assets/rsz_project-3.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Library System</h2>
+                  <p>A Library management system I worked on during my industrial attachment.</p>
+                  </br>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/emuiga/Santiago'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/emuiga/Santiago'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <div class="details-container color-container" style="height: 517px;">
+                  <div class="article-container">
+                    <!-- <img
+                      src="./assets/rsz_project-1.png"
+                      alt="Project 1"
+                      class="project-img"
+                    /> -->
+                  </div>
+                  <!-- <h2 class="experience-sub-title project-title">Dear Assembly...</h2> -->
+                  <ul>
+                    <u>I worked in ICT department doubling as a support and a developer.</u>
+                    <u>Involved in developing a web-based Library Management system for the organization using PHP.</u>
+                    <u>Collaborated on the development of the HR Management System.</u>
+                    <u>Performed networking and livestreaming using vMix software.</u>
+
+                  </ul>
+                  </br>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://muiga-steve.hashnode.dev/'"
+                    >
+                      See Blog
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://muiga-steve.hashnode.dev/historiography-js-emplotment'"
+                    >
+                      Read
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
         </div>
       </div>
       <img
@@ -437,7 +907,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://linkedin.com/in/stevemuiga/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -445,10 +915,10 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <u><a href="#about">About</a></u>
+            <u><a href="#experience">Experience</a></u>
+            <u><a href="#projects">Projects</a></u>
+            <u><a href="#contact">Contact</a></u>
           </ul>
         </div>
       </nav>
